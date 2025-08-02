@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+    public static void main (String[] args){
+        Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        double number = 0 ;
+                for (int i = 0 ; i < x; i++){
+                    int sum = input.nextInt();
+                    number += sum;
+                }
+                double avergs = number/x;
+                System.out.println(avergs);
+    }
+}
